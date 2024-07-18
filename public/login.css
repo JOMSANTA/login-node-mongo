@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./senaLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.form-container{
+    
+    background-color: rgb(8, 221, 154, 0.4);
+    width: 60%;
+    padding:  10%;
+   
+}
+h2{
+    font-size: 200%;
+    text-align: center;
+}
+.submit-btn  {background-color: rgb(141, 202, 236);
+    position: relative;
+    left: 30%;
+    
+}
